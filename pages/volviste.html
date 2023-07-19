@@ -6,35 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lupuloops | ¿Volviste?</title>
         <!--favicon-->
-        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <!--bootstrap css-->
-        <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <!--hojas de estilos-->
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
+        <!--navegacion de bootstrap con modificaciones y menu hamburguesa-->
         <header class="header">
-            <div class="encabezado">
-                <div class="contieneLogo">
-                    <a href="../index.html">
-                        <img src="../css/assets/img/fabiconlupulo.png" alt="Logo">
-                    </a>
-                    <h2>Lupuloops</h2>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(177, 239, 177, 0.792);">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../css/assets/img/fabiconlupulo.png" alt="Logo" width="50" height="50"></a>
+                        <h2>Lupuloops</h2>  
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/nuestrasRaices.html">Nuestras Raíces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/laFamilia.html">La Familia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/haceteAmigo.html">Hacete Amigo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">¿Volviste?</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <nav class="navHeader">
-                    <ul class="listaNavHeader">
-                        <li class="listaItem"><a href="../index.html">Inicio</a></li>
-                        <li class="listaItem"><a href="../pages/nuestrasRaices.html">Nuestras Raices</a></li>
-                        <li class="listaItem"><a href="../pages/laFamilia.html">La Familia</a></li>
-                        <li class="listaItem"><a href="../pages/haceteAmigo.html">Hacete Amigo</a></li>
-                        <li class="listaItem"><a href="#">¿Volviste?</a></li>
-                    </ul>
-                </nav>
-            </div>
-                <div class="padreBanner">
-                    <img src="../css/assets/img/procesoBirrero.jpg" alt="imagen publicidad">
-                </div>
+            </nav>
         </header>
         <main>
             <h1>¿Volviste?</h1>
