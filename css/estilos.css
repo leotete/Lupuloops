@@ -18,17 +18,17 @@ body {
     height: 20%;
 }
 .footer{
-    height: 25%;
+    height: 20%;
     margin-bottom: 0rem;
     margin-top: 1.5rem;
 }
 .main{
     height: 60%;
 }
-.container-fluid{
+/*.container-fluid{
     padding-left: 0;
     padding-right: 0;
-}
+}*/
 .nav-link .active{
     color:rgb(48, 70, 48);
 }
@@ -78,6 +78,9 @@ h3:hover{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: calc(1.375rem + 1.5vw);
+}
+a{
+color: #222;
 }
 
 /*.listaNavHeader{
