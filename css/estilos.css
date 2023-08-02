@@ -25,10 +25,7 @@ body {
 .main{
     height: 60%;
 }
-/*.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-}*/
+
 .nav-link .active{
     color:rgb(48, 70, 48);
 }
@@ -51,6 +48,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 2rem 3rem;
+    margin: 1rem 1rem;
     border: 1px solid gray;
     box-shadow: 0 0 100px #222;
     backdrop-filter: blur(8px);
@@ -81,6 +79,9 @@ h3:hover{
 }
 a{
 color: #222;
+}
+.subtituloRaices{
+    margin-top: 1.5rem;
 }
 
 /*.listaNavHeader{
