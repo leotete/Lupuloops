@@ -53,12 +53,16 @@ body {
   object-fit: cover;
 }
 
-.wrap {
+.flex-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  flex-direction: column;
   text-align: center;
   padding: 2rem 3rem;
   margin: 1rem 1rem;
   box-shadow: 0 0 50px #125702;
-  backdrop-filter: blur(2px);
+  background-color: rgba(177, 239, 177, 0.792);
 }
 
 .nav-item .nav-link {
@@ -77,10 +81,34 @@ h3:hover {
   color: whitesmoke;
 }
 
-/*.container{
-    margin-top: $margen-general;
-    margin-bottom: $margen-general;
-}*/
+.error {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.error img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.error p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .col-md-4 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -97,4 +125,12 @@ a {
 
 .subtituloRaices {
   margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-wrap {
+    background-color: #b9ceee;
+    box-shadow: 0 0 50px rgba(30, 27, 11, 0.6392156863);
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=estilos.css.map */
