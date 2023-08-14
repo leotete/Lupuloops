@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
+
+$texto-color:  #212121;
+$hover-color: whitesmoke;
+$margen-general:  1.5rem;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right top, #878f9b, #9aaab0, #b3c4c3, #d2ded7, #f4f7ee);
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 20%;
+    .navbar .navbar-expand-lg .navbar-light{
+        .container{
+            margin-top: $margen-general;
+            margin-bottom: $margen-general;
+        }
+    }
+}
+
+.footer{
+    height: 20%;
+    margin-bottom: 0rem;
+    margin-top: $margen-general;
+}
+.main{
+    height: 60%;
+}
+
+.nav-link .active{
+    color: $texto-color;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: $texto-color;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:$hover-color;
+}
+.carousel-item{
+    height: 60vh;
+    width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-wrap{
+    position: relative;
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 3rem;
+    margin: 1rem 1rem;
+    box-shadow: 0 0 50px #125702;
+    background-color: rgba(177, 239, 177, 0.792);
+}
+.nav-item .nav-link{
+    color: $texto-color;
+}
+
+h1, h2, h3, p{
+    color: $texto-color;
+}
+h1:hover{
+    color:$hover-color;
+}
+h3:hover{
+    color:$hover-color;
+}
+.error{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: $margen-general;
+    margin-bottom: $margen-general;
+}
+.error img {
+    max-width: 100%;
+    height: 100%;
+}
+.error p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.col-md-4{
+    margin-top: $margen-general;
+    margin-bottom: $margen-general;
+    font-size: calc(1.375rem + 1.5vw);
+}
+a{
+color: $texto-color;
+}
+.nav-item .nav-link:hover{
+    color: $hover-color;
+}
+.subtituloRaices{
+    margin-top: $margen-general;
+}
+@media screen and (max-width: 768px){
+    .flex-wrap{
+        background-color: #b9ceee;
+        box-shadow: 0 0 50px #1e1b0ba3;
+        flex-direction: column;
+    }
+} 
+    
