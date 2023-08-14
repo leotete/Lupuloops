@@ -1,79 +1,136 @@
-*{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.encabezado{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    background-color: rgba(177, 239, 177, 0.792);
-} 
-.contieneLogo{
-    width: 12%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.contieneLogo a img{
-    width: 100%
-}
-.listaNavHeader{
-    list-style: none;
-}
-.listaItem{
-    display: inline-block;
-    padding-right: 3rem;
-}
-.listaItem a{
-    text-decoration: none;
-    color: black;
-}
-.padreBanner{
-    height: 60vh;
-    
-}
-    
-    
-    
-    
-    
-    
-    
-    body {
-    
-    background-image: url(./assets/img/lupuloPlanta.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.medioCuerpo {
-    text-align: center;
-    color: white;
+body {
+  background-image: linear-gradient(to right top, #878f9b, #9aaab0, #b3c4c3, #d2ded7, #f4f7ee);
 }
-.navegacion .listaNav .listaItem {
 
-    list-style: none;/*saca la decoracion de las listas*/
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 20%;
+}
+.header .navbar .navbar-expand-lg .navbar-light .container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
-    display: inline-block;/*hace que los items esten uno al lado del otro*/
-    margin-left:20px;/*le da un espaciado izquierdo entre los elementos*/
+.footer {
+  height: 20%;
+  margin-bottom: 0rem;
+  margin-top: 1.5rem;
+}
 
+.main {
+  height: 60%;
 }
-.navegacion .listaNav .listaItem a{
 
-    text-decoration: none;/*le saca el subrayado a los links\*/
-    color: #212121;/*cambia el color de la fuente de los links\*/
-    font-size: 1.5rem;/*cambia el tamaño de la fuente\*/
-        
+.nav-link .active {
+  color: #212121;
 }
-.variedades {
-    color: aliceblue;
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212121;
 }
-.pieDePagina {
-    background-color: #009688;
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: whitesmoke;
 }
+
+.carousel-item {
+  height: 60vh;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem 3rem;
+  margin: 1rem 1rem;
+  box-shadow: 0 0 50px #125702;
+  background-color: rgba(177, 239, 177, 0.792);
+}
+
+.nav-item .nav-link {
+  color: #212121;
+}
+
+h1, h2, h3, p {
+  color: #212121;
+}
+
+h1:hover {
+  color: whitesmoke;
+}
+
+h3:hover {
+  color: whitesmoke;
+}
+
+.error {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.error img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.error p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+a {
+  color: #212121;
+}
+
+.nav-item .nav-link:hover {
+  color: whitesmoke;
+}
+
+.subtituloRaices {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-wrap {
+    background-color: #b9ceee;
+    box-shadow: 0 0 50px rgba(30, 27, 11, 0.6392156863);
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=estilos.css.map */

@@ -4,41 +4,121 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nuestras Raices | Lupuloops</title>
+        <meta name="description" content="Sumérgete en el viaje histórico de Lúpuloops, donde la pasión por la cerveza artesanal cobra vida. Descubre nuestras raíces en la historia de la elaboración de cervezas, desde las antiguas tradiciones hasta la innovación moderna. Explora cómo cada botella de Lúpuloops es el resultado de siglos de maestría cervecera y un compromiso inquebrantable con la calidad">
+        <meta name="keywords" content="Cerveza artesanal, Lúpulos, Raíces, calidad, Nuestras Raíces">
+        <title>Nuestras Raíces | Lúpuloops</title>
         <!--favicon-->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-        <!--hojas de estilo-->
+        <!--iconos bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!--animaciones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!--hojas de estilos-->
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="encabezado">
-            <a href="../index.html"> <img src="../css/assets/img/logoBirra.jpeg" alt="Logo"></a>
-            <nav class="navegacion">
-                <ul class="listaNav">
-                    <li class="listaItem"><a href="../index.html">Inicio</a></li>
-                    <li class="listaItem"><a href="#">Nuestras Raices</a></li>
-                    <li class="listaItem"><a href="laFamilia.html">La Familia</a></li>
-                    <li class="listaItem"><a href="haceteAmigo.html">Hacete Amigo</a></li>
-                    <li class="listaItem"><a href="volviste.html">¿Volviste?</a></li>
-                </ul>
+        <!--navegacion de bootstrap con modificaciones y menu hamburguesa-->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(177, 239, 177, 0.792);">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/img/fabiconlupulo.png" alt="Logo" width="50" height="50"></a>
+                        <h2 class="animate_animate animate__hinge">Lúpuloops</h2>   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nuestras Raíces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/laFamilia.html">La Familia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/haceteAmigo.html">Hacete Amigo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/volviste.html">¿Volviste?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
-            <h1>Nuestras Raices</h1>
-            <section>
-                <h2>Esto hacemos para vos</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HBiiIab_qpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </section>
-            <section>
-                <h3>Playlist Loop</h3>
-            </section>
-        </main>
-        <footer class="pieDePagina">
-            <div>
-                <p>Acá nos encontramos</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.416990121677!2d-58.596083954599244!3d-34.593615730554575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9ac0467ac11%3A0x5fc364dc461cae22!2sLibertad%2C%20B1684%20Cdad.%20Jardin%20Lomas%20de%20Palomar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1687207138103!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container">
+                <div class="row">
+                    <h1 class="col-md-4">Nuestras Raíces</h1> 
+                    <div class="flex-wrap">
+                        <h2>Envasamos felicidad</h2>
+                        <p>
+                        ¡Descubre Lúpuloops, la cerveza que revoluciona tus sentidos! Con raíces en el corazón de Villa Bosch, nuestra marca nació del ingenio cervecero local y la pasión por la calidad. Cada sorbo es una experiencia única, fusionando lúpulos exóticos y maltas artesanales. ¡Embárcate en un viaje cervecero inolvidable con Lúpuloops!🍻</p>
+                    </div>        
+                    <div class="flex-wrap">
+                        <h3 class="saltoTiempo">Un salto en el tiempo cervecero</h3>
+                        <p>
+                            En la vibrante década del 2000/2010, nació la línea de cervezas "Lúpuloops" en un pequeño pueblo cervecero. Inspirados por el espíritu emprendedor, un grupo de cerveceros talentosos fusionaron lúpulos exóticos con maltas artesanales, creando sabores únicos y cautivadores. Su lema: "Lúpuloops, un salto en el tiempo cervecero". Con ingenio y pasión, conquistaron paladares y expandieron su imperio cervecero. ¡Así surgió Lúpuloops, una leyenda cervecera que perdura hasta hoy! 🍻
+                        </p>
+                        <h4 class="subtituloRaices">Asi se hace la magia</h4>
+                        <section class="col">
+                            <iframe width="430" height="250" src="https://www.youtube.com/embed/HBiiIab_qpY" title="YouTube video player"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;web-share" allowfullscreen></iframe>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <p>Lupuloops - Todos los derechos reservados &copy;</p>
-        </footer>
+        </main>
+        <div class="container">
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li class="logRedes">
+                        <a class="text-body-secondary" href="https://twitter.com/" target="_blank">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="logRedes">
+                        <a class="text-body-secondary" href="https://www.facebook.com/" target="_blank">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="logRedes">
+                        <a class="text-body-secondary" href="https://www.instagram.com/" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+        <div class="container-fluid" style="background-image: linear-gradient(to bottom, #bdbdbd, #cdcdcd, #dedede, #eeeeee, #ffffff);">
+            <div class="row">
+                <footer class="footer">
+                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                            <li class="nav-item">
+                                <a href="../index.html" class="nav-link px-2 text-body-secondary">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link px-2 text-body-secondary">Nuestras Raíces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/laFamilia.html" class="nav-link px-2 text-body-secondary">La Familia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/haceteAmigo.html" class="nav-link px-2 text-body-secondary">Hacete Amigo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../pages/volviste.html" class="nav-link px-2 text-body-secondary">¿Volviste?</a>
+                            </li>
+                        </ul>
+                        <p class="text-md-end text-body-secondary col-md-11">Todos los derechos reservados &copy;Lupuloops S.A. 2023</p>
+                </footer>
+            </div>
+        </div>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
+        
